@@ -1,0 +1,36 @@
+/* ... (CSS sebelumnya tetap sama) ... */
+
+/* TAMBAHAN UNTUK PESAN ERROR */
+#error-message {
+    color: #ff0000; /* Merah terang */
+    background-color: #ffe0e0; /* Latar belakang merah muda lembut */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    /* Mulai dari keadaan kosong, hanya akan diisi JS saat gagal */
+}
+
+/* ... (Lanjutkan dengan CSS sebelumnya) ... */
+/* Misalnya, di bawah ini adalah bagian dari CSS sebelumnya: */
+
+/* Tombol Login */
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #FF69B4; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #FF1493; 
+}
